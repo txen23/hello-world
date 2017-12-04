@@ -1,9 +1,9 @@
 alert ('Hi dude, is so hard');
 
-function f1(){
+function alertButton(){
     alert ('Thanks!');
 }
 
-function f2(){
+function alertCat(){
     alert ('Okay, stop it')
 }
