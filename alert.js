@@ -7,7 +7,9 @@ function alertButton(){
 function alertCat(){
     alert ('Okay, stop it')
 }
-//document.getElementById('inpSquare').value
+
 function squareNumber(){
-    alert (document.getElementById('inpSquare').value*document.getElementById('inpSquare').value)
+    var inpSquare;
+    inpSquare = document.getElementById('inpSquareNum').value;
+    alert (inpSquare*inpSquare);
 }
